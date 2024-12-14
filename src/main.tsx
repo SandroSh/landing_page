@@ -8,5 +8,5 @@ createRoot(document.getElementById('root')!).render(
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
-  </StrictMode>,
+  </StrictMode>
 )

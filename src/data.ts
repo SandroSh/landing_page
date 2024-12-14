@@ -1,35 +1,53 @@
 import { CommunityCardType, IntroCardType, memberType, NewsCardType } from "./types";
 
-const communityCards: CommunityCardType[] = [
-  {
+export const communityCardsData: CommunityCardType[] = [
+  { 
     title: "Members, Friends",
-    img: "",
+    img: "src/assets/Icon.svg",
+    imgAlt:'two person',
     text: "Members, Friends Connection (like followers), Private Message",
-  },
-  {
-    title: "Forum",
-    img: "",
-    text: "Forum is ready by BBPress. Your users can make topics and talk.",
-  },
-  {
-    title: "List Builder",
-    img: "",
-    text: "Members, Groups list can be modified by drag & drop live builder.",
+    backgroundColor:'#287FF5',
+    dropShadowColor:'#6DABFF5C'
   },
   {
     title: "Groups",
-    img: "",
+    img: "src/assets/Group.svg",
+    imgAlt:'People',
     text: "Your users can create groups to let other users join and talk.",
+    backgroundColor:'#F1464D',
+    dropShadowColor:'#F8575E4D'
+  },
+  {
+    title: "Forum",
+    img: "./src/assets/messageIcon.svg",
+    imgAlt:'Messaging',
+    text: "Forum is ready by BBPress. Your users can make topics and talk.",
+    backgroundColor:'#FFB133',
+    dropShadowColor:'#FABA544D'
   },
   {
     title: "Custom Module",
-    img: "",
+    img: "src/assets/Icon-2.svg",
+    imgAlt:'module',
     text: "You can create Members, Groups Module. We already created 3 modules. It's by drag & drop live builder.",
+    backgroundColor:'#287FF5',
+    dropShadowColor:'#6DABFF5C'
+  },
+  {
+    title: "List Builder",
+    img: "src/assets/ListIcon.svg",
+    imgAlt:'List',
+    text: "Members, Groups list can be modified by drag & drop live builder.",
+    backgroundColor:'#F1464D',
+    dropShadowColor:'#F8575E4D'
   },
   {
     title: "List Scroll Effects",
-    img: "",
+    img: "src/assets/Icon-3.svg",
+    imgAlt:'Scrolling List',
     text: "8 different scroll effects are ready. You can always change by your tastes.",
+    backgroundColor:'#FFB133',
+    dropShadowColor:'#FABA544D'
   },
 ];
 

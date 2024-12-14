@@ -1,7 +1,10 @@
 export type CommunityCardType = {
   title: string;
   img: string;
+  imgAlt:string;
   text: string;
+  backgroundColor:string;
+  dropShadowColor:string;
 };
 
 export type NewsCardType = Pick<CommunityCardType, "title" | "img">;

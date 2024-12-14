@@ -4,5 +4,4 @@ export const theme = {
   blue: "#217BF4",
   lightBlue: "rgba(33, 123, 244, 0.1)",
   lightGray: "#2B2B39",
- 
 };
