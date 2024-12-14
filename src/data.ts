@@ -1,4 +1,4 @@
-import { CommunityCardType, member, NewsCardType } from "./types";
+import { CommunityCardType, IntroCardType, memberType, NewsCardType } from "./types";
 
 const communityCards: CommunityCardType[] = [
   {
@@ -47,9 +47,34 @@ const newsCards: NewsCardType[] = [
     img: "",
   },
 ];
-const members: member[] = [
+export const members: memberType[] = [
   { name: "Fahim Rahman", img: "", username: "@rahman" },
   { name: "Kazi Rahman", img: "", username: "@Rahma" },
   { name: "Masterero Ali", img: "", username: "@Master" },
   { name: "Alia Karon", img: "", username: "@Alia" },
 ];
+
+export const introCards:IntroCardType[] = [
+  {
+    id:1,
+    title: "4.8 Rating",
+    titleImg: "src/assets/Star.svg",
+    titleImgAlt:'start',
+    infoText: "+836k Members",
+    infoImg: "src/assets/people.png",
+    infoImgAlt:'people',
+    paragraph: "More than 2 billion we people over countries use socibooks we to stay in touch with friends.",
+    buttonText: "Join Our Community"
+  },
+  {
+    id:2,
+    title: "Awwwards",
+    titleImg: "src/assets/Trophy.svg",
+    titleImgAlt:'Trophy',
+    infoText: "Best of 2021 on Github",
+    infoImg: "src/assets/Ellipse 14.png",
+    infoImgAlt:'github icon',
+    paragraph: "The scope the Social Media becomes crucial Is helps the business to directly engage with their needs and wants.",
+    buttonText: "Go To Awards"
+  }
+]
