@@ -27,6 +27,9 @@ export const InfoDiv = styled.div`
   p {
     color: ${({ theme }) => theme.text_secondary};
   }
+  h4{
+    color: ${({ theme }) => theme.blue};
+  }
 `;
 export const UpperLinkDiv = styled.div`
   color: ${({ theme }) => theme.blue};

@@ -1,4 +1,4 @@
-import { CommunityCardType, IntroCardType, memberType, NewsCardType } from "./types";
+import { CommunityCardType, IntroCardType, ListDataType, memberType, NewsCardType} from "./types";
 
 export const communityCardsData: CommunityCardType[] = [
   { 
@@ -51,18 +51,21 @@ export const communityCardsData: CommunityCardType[] = [
   },
 ];
 
-const newsCards: NewsCardType[] = [
-  {
+export const newsCardsData: NewsCardType[] = [
+  { id:1,
     title: "It Does Not Matter Hows Slowly go as Long",
-    img: "",
+    img: "./src/assets/image1.png",
+    imgAlt:"person working with computer"
   },
-  {
+  { id:2,
     title: "Netbook Network Added New Photo Filter",
-    img: "",
+    img: "./src/assets/image2.png",
+    imgAlt:"adult and child are having video call"
   },
-  {
+  { id:3,
     title: "We Optimised Netbooks Better Navigation",
-    img: "",
+    img: "./src/assets/image3.png",
+    imgAlt:"map crated by pins"
   },
 ];
 export const members: memberType[] = [
@@ -96,3 +99,23 @@ export const introCards:IntroCardType[] = [
     buttonText: "Go To Awards"
   }
 ]
+
+
+export const footerLists: ListDataType[] = [
+  {
+    title: "Home",
+    elements: ["Home", "Community", "Events", "Contact"]
+  },
+  {
+    title: "Resources",
+    elements: ["Blog", "News", "Guides", "Help Center"]
+  },
+  {
+    title: "Community",
+    elements: ["NewsFeed", "Profile", "Friends", "Forums"]
+  },
+  {
+    title: "Main links",
+    elements: ["Members", "Activity", "Groups", "Private Group"]
+  }
+];

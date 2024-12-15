@@ -17,6 +17,13 @@ export const CardDiv = styled.div`
   align-items: center;
   gap: 35px;
   padding: 40px;
+  &:hover{
+  
+    Img{
+      transform:scale(1.4);
+      transition: 0.5s;
+    }
+  }
 `;
 
 export const TextWrapper = styled.div`

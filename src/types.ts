@@ -7,7 +7,9 @@ export type CommunityCardType = {
   dropShadowColor:string;
 };
 
-export type NewsCardType = Pick<CommunityCardType, "title" | "img">;
+export type NewsCardType = Pick<CommunityCardType, "title" | "img" | 'imgAlt'> & {
+  id:number
+};
 
 export type memberType = {
   name: string;
@@ -26,3 +28,9 @@ export type IntroCardType = {
   paragraph: string;
   buttonText: string;
 };
+
+export type ListDataType = {
+  title: string;
+  elements: string[];
+}
+

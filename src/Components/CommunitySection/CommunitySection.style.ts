@@ -30,6 +30,8 @@ export const TitleDiv = styled.div`
   text-align: center;
   h3 {
     color: ${({ theme }) => theme.blue};
+    font-weight:500;
+    margin-bottom:5px;
   }
   h1 {
     color: ${({ theme }) => theme.text_primary};
