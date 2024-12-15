@@ -66,10 +66,10 @@ const newsCards: NewsCardType[] = [
   },
 ];
 export const members: memberType[] = [
-  { name: "Fahim Rahman", img: "", username: "@rahman" },
-  { name: "Kazi Rahman", img: "", username: "@Rahma" },
-  { name: "Masterero Ali", img: "", username: "@Master" },
-  { name: "Alia Karon", img: "", username: "@Alia" },
+  { name: "Fahim Rahman", img: "src/assets/Image-3.png", username: "@rahman" },
+  { name: "Kazi Rahman", img: "src/assets/Image-2.png", username: "@Rahma" },
+  { name: "Masterero Ali", img: "src/assets/Image-1.png", username: "@Master" },
+  { name: "Alia Karon", img: "src/assets/Image.png", username: "@Alia" },
 ];
 
 export const introCards:IntroCardType[] = [

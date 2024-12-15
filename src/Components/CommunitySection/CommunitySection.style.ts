@@ -47,10 +47,3 @@ export const CommunityCardsDiv = styled.div`
   align-items: center;
   gap: 44px;
 `;
-
-// export const CommunitySection = styled.div`
-
-// `;
-// export const CommunitySection = styled.div`
-
-// `;

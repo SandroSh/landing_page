@@ -2,6 +2,7 @@ import './App.css'
 import CommunitySection from './Components/CommunitySection/CommunitySection'
 import HeroSection from './Components/HeroSection/HeroSection'
 import IntroSection from './Components/IntroSection/IntroSection'
+import MembersSection from './Components/MembersSection/MembersSection'
 import Navbar from './Components/Navbar/Navbar'
 function App() {
 
@@ -12,9 +13,8 @@ function App() {
         <HeroSection />
       </div>
       <IntroSection />
-
-        <CommunitySection />
-
+      <CommunitySection />
+      <MembersSection/>
     </div>
   )
 }
