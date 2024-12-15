@@ -1,5 +1,5 @@
 # Authentication App
-Simple Star wars themed app integrated with star wars api
+Simple Landing Page
 
 
 # Used Technologies
