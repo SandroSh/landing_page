@@ -1,5 +1,4 @@
-# Authentication App
-Simple Landing Page
+# Simple Landing Page
 
 
 # Used Technologies
