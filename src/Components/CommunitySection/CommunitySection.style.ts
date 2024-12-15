@@ -48,4 +48,7 @@ export const CommunityCardsDiv = styled.div`
   justify-content: center;
   align-items: center;
   gap: 44px;
+  @media (max-width:500px) {
+    padding:0 19px;
+  }
 `;

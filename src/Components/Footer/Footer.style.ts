@@ -17,9 +17,13 @@ export const FooterDiv = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-
   padding: 77px 135px 98px 135px;
+  @media (max-width: 1050px) {
+    justify-content: center;
+    gap: 50px;
+  }
 `;
 export const NewsLetterDiv = styled.div`
   color: white;
@@ -30,6 +34,9 @@ export const NewsLetterDiv = styled.div`
   p {
     font-size: 16px;
     line-height: 30px;
+  }
+  @media (max-width: 500px) {
+    margin-top:50px;
   }
 `;
 
@@ -56,12 +63,17 @@ export const InputDiv = styled.div`
     position: absolute;
     right: 10%;
   }
+  @media (max-width:500px) {
+    button {
+    right: 0;
+  }
+  }
 `;
 
 export const PlatformsDiv = styled.div`
-    img{
-        margin-right:8px;
-    }
+  img {
+    margin-right: 8px;
+  }
 `;
 // right:10%;
 // }

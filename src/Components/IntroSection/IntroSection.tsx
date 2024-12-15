@@ -2,6 +2,7 @@ import { ImagesDiv, InfoDiv, IntroDiv, PlayableImgDiv, PlayButton, VerticalDiv, 
 import PeopleImage from '../../assets/Mask Group 8.png'
 import LaptopImage from '../../assets/Image-4.png'
 import CablesImage from '../../assets/Image-5.png'
+import ArrowIcon from '../../assets/ArrowRight-2.svg'
 import PlayIcon from '../../assets/Play iCon.svg'
 import IntroCard from '../IntroCard/IntroCard'
 import { introCards } from '../../data'
@@ -40,7 +41,8 @@ const IntroSection = () => {
                     <h5>Our Achievement</h5>
                     <h1>We are Connecting You The Digital Life.</h1>
                     <p>The scope the Social Media becomes crucial Is <br />helps the business to directly engage with their<br /> needs and wants.</p>
-                    <button>Discover me</button>
+                    <button>Discover me<img src={ArrowIcon} alt='white right side arrow' style={{marginLeft:'5px'}} />
+                    </button>
                 </InfoDiv>
             </Wrapper>
         </IntroDiv>

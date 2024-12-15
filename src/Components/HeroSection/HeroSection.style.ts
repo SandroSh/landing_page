@@ -9,7 +9,20 @@ export const MainDiv = styled.div`
   justify-content: center;
   gap: 100px;
   align-items: center;
-
+  @media (max-width:900px) {
+    img{
+      width:417px;
+      height:357px; 
+    }
+  }
+  @media (max-width:700px) {
+    img{
+      display:none;
+    }
+  }
+  @media (max-width:500px) {
+    max-width:80vw;
+  }
 `;
 
 export const InfoDiv = styled.div`
@@ -29,6 +42,10 @@ export const InfoDiv = styled.div`
   }
   h4{
     color: ${({ theme }) => theme.blue};
+  }
+  @media (max-width:500px) {
+    text-align:center;
+    align-items:center;
   }
 `;
 export const UpperLinkDiv = styled.div`

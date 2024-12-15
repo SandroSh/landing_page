@@ -13,11 +13,13 @@ export const IntroDiv = styled.div`
 
 export const Wrapper = styled.div`
   width: 100%;
-  /* height:340px; */
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 100px;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap-reverse !important;
+  }
   button {
     background-color: ${({ theme }) => theme.blue};
     color: white;
@@ -26,7 +28,6 @@ export const Wrapper = styled.div`
     padding: 23px 38px;
     border-radius: 14px;
     border: 0;
-    /* margin-top: 20px; */
     cursor: pointer;
     font-weight: 700;
     &:hover {
@@ -40,7 +41,7 @@ export const InfoDiv = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height:340px;
+  height: 340px;
   gap: 24px;
   h5 {
     color: ${({ theme }) => theme.blue};
@@ -58,6 +59,14 @@ export const InfoDiv = styled.div`
   }
   ul {
     margin-top: 47px;
+  }
+  @media (max-width: 1050px) {
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+    h1 {
+      font-size: 30px !important;
+    }
   }
 `;
 
@@ -83,6 +92,9 @@ export const ImagesDiv = styled.div`
   justify-content: center;
   align-items: center;
   gap: 32px;
+  @media (max-width:600px) {
+    display:none;
+  }
 `;
 export const PlayButton = styled.img`
   position: absolute;
@@ -103,6 +115,8 @@ export const CardsDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap; */
   gap: 24px;
+  @media (max-width: 900px) {
+    flex-wrap: wrap;
+  }
 `;
