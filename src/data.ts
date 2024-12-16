@@ -3,7 +3,7 @@ import { CommunityCardType, IntroCardType, ListDataType, memberType, NewsCardTyp
 export const communityCardsData: CommunityCardType[] = [
   { 
     title: "Members, Friends",
-    img: "src/assets/Icon.svg",
+    img: "/assets/Icon.svg",
     imgAlt:'two person',
     text: "Members, Friends Connection (like followers), Private Message",
     backgroundColor:'#287FF5',
@@ -11,7 +11,7 @@ export const communityCardsData: CommunityCardType[] = [
   },
   {
     title: "Groups",
-    img: "src/assets/Group.svg",
+    img: "/assets/Group.svg",
     imgAlt:'People',
     text: "Your users can create groups to let other users join and talk.",
     backgroundColor:'#F1464D',
@@ -19,7 +19,7 @@ export const communityCardsData: CommunityCardType[] = [
   },
   {
     title: "Forum",
-    img: "./src/assets/messageIcon.svg",
+    img: "/assets/messageIcon.svg",
     imgAlt:'Messaging',
     text: "Forum is ready by BBPress. Your users can make topics and talk.",
     backgroundColor:'#FFB133',
@@ -27,7 +27,7 @@ export const communityCardsData: CommunityCardType[] = [
   },
   {
     title: "Custom Module",
-    img: "src/assets/Icon-2.svg",
+    img: "/assets/Icon-2.svg",
     imgAlt:'module',
     text: "You can create Members, Groups Module. We already created 3 modules. It's by drag & drop live builder.",
     backgroundColor:'#287FF5',
@@ -35,7 +35,7 @@ export const communityCardsData: CommunityCardType[] = [
   },
   {
     title: "List Builder",
-    img: "src/assets/ListIcon.svg",
+    img: "/assets/ListIcon.svg",
     imgAlt:'List',
     text: "Members, Groups list can be modified by drag & drop live builder.",
     backgroundColor:'#F1464D',
@@ -43,7 +43,7 @@ export const communityCardsData: CommunityCardType[] = [
   },
   {
     title: "List Scroll Effects",
-    img: "src/assets/Icon-3.svg",
+    img: "/assets/Icon-3.svg",
     imgAlt:'Scrolling List',
     text: "8 different scroll effects are ready. You can always change by your tastes.",
     backgroundColor:'#FFB133',
@@ -54,35 +54,35 @@ export const communityCardsData: CommunityCardType[] = [
 export const newsCardsData: NewsCardType[] = [
   { id:1,
     title: "It Does Not Matter Hows Slowly go as Long",
-    img: "./src/assets/image1.png",
+    img: "/assets/image1.png",
     imgAlt:"person working with computer"
   },
   { id:2,
     title: "Netbook Network Added New Photo Filter",
-    img: "./src/assets/image2.png",
+    img: "/assets/image2.png",
     imgAlt:"adult and child are having video call"
   },
   { id:3,
     title: "We Optimised Netbooks Better Navigation",
-    img: "./src/assets/image3.png",
+    img: "/assets/image3.png",
     imgAlt:"map crated by pins"
   },
 ];
 export const members: memberType[] = [
-  { name: "Fahim Rahman", img: "src/assets/Image-3.png", username: "@rahman" },
-  { name: "Kazi Rahman", img: "src/assets/Image-2.png", username: "@Rahma" },
-  { name: "Masterero Ali", img: "src/assets/Image-1.png", username: "@Master" },
-  { name: "Alia Karon", img: "src/assets/Image.png", username: "@Alia" },
+  { name: "Fahim Rahman", img: "/assets/Image-3.png", username: "@rahman" },
+  { name: "Kazi Rahman", img: "/assets/Image-2.png", username: "@Rahma" },
+  { name: "Masterero Ali", img: "/assets/Image-1.png", username: "@Master" },
+  { name: "Alia Karon", img: "/assets/Image.png", username: "@Alia" },
 ];
 
 export const introCards:IntroCardType[] = [
   {
     id:1,
     title: "4.8 Rating",
-    titleImg: "src/assets/Star.svg",
+    titleImg: "/assets/Star.svg",
     titleImgAlt:'start',
     infoText: "+836k Members",
-    infoImg: "src/assets/people.png",
+    infoImg: "/assets/people.png",
     infoImgAlt:'people',
     paragraph: "More than 2 billion we people over countries use socibooks we to stay in touch with friends.",
     buttonText: "Join Our Community"
@@ -90,10 +90,10 @@ export const introCards:IntroCardType[] = [
   {
     id:2,
     title: "Awwwards",
-    titleImg: "src/assets/Trophy.svg",
+    titleImg: "/assets/Trophy.svg",
     titleImgAlt:'Trophy',
     infoText: "Best of 2021 on Github",
-    infoImg: "src/assets/Ellipse 14.png",
+    infoImg: "/assets/Ellipse 14.png",
     infoImgAlt:'github icon',
     paragraph: "The scope the Social Media becomes crucial Is helps the business to directly engage with their needs and wants.",
     buttonText: "Go To Awards"
