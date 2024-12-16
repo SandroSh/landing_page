@@ -1,7 +1,7 @@
 import { IntroCardType } from "../../types"
 import { InfoDiv, MainDiv, TitleContainer } from "./IntroCard.style"
-import GrayArrowIcon from '../../assets/ArrowRight.svg'
-import BlueArrowIcon from '../../assets/ArrowRight-1.svg'
+import GrayArrowIcon from '../../../public/assets/ArrowRight.svg'
+import BlueArrowIcon from '../../../public/assets/ArrowRight-1.svg'
 const IntroCard = ({ introCardData }: { introCardData: IntroCardType }) => {
     return (
         <MainDiv>

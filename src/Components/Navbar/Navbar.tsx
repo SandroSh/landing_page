@@ -1,7 +1,7 @@
 import { OuterWrapper, MainDiv, LeftWrapper,Ul, RightWrapper, SearchInput, LoginButton, SearchInputWrapper } from "./Navbar.style"
-import Logo from '../../assets/logo-1.svg'
-import DropDownIcon from '../../assets/dropdown.svg'
-import SearchIcon from '../../assets/search.svg'
+import Logo from '../../../public/assets/logo-1.svg'
+import DropDownIcon from '../../../public/assets/dropdown.svg'
+import SearchIcon from '../../../public/assets/search.svg'
 
 
 const Navbar = () => {

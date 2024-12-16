@@ -1,5 +1,5 @@
 import { MainDiv, InfoDiv, ButtonsDiv, UpperLinkDiv } from './HeroSection.style'
-import MainImage from '../../assets/Iamge.svg'
+import MainImage from '../../../public/assets/Iamge.svg'
 const HeroSection = () => {
     return (
         <MainDiv>

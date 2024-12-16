@@ -1,7 +1,7 @@
 import { MemberCardDiv, ImageDiv, TextDiv, Img } from "./MemberCard.style"
 import { memberType } from "../../types"
-import CheckIcon from '../../assets/Check.svg'
-import borderImg from '../../assets/border.svg'
+import CheckIcon from '../../../public/assets/Check.svg'
+import borderImg from '../../../public/assets/border.svg'
 
 const MemberCard = ({ memberData }: { memberData: memberType }) => {
     return (

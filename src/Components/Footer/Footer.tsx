@@ -1,11 +1,11 @@
 import { footerLists } from "../../data"
 import FooterList from "../FooterList/FooterList"
 import { FooterDiv, FooterOuterWrapper, LowerWrapper, NewsLetterDiv, UpperWrapper, InputDiv, PlatformsDiv } from "./Footer.style"
-import CompanyLogo from '../../assets/logo.svg'
-import TwitterIcon from '../../assets/Twitter.svg'
-import InstagramIcon from '../../assets/instagram.svg'
-import FacebookIcon from '../../assets/facebook.svg'
-import LinkedinIcon from '../../assets/Linkedin.svg'
+import CompanyLogo from '../../../public/assets/logo.svg'
+import TwitterIcon from '../../../public/assets/Twitter.svg'
+import InstagramIcon from '../../../public/assets/instagram.svg'
+import FacebookIcon from '../../../public/assets/facebook.svg'
+import LinkedinIcon from '../../../public/assets/Linkedin.svg'
 
 const Footer = () => {
     return (

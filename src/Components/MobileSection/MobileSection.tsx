@@ -1,7 +1,7 @@
 import { DownloadImgDiv, MobileSectionDiv,InfoDiv,  MobileSectionWrapper, MockupImage } from './MobileSection.style'
-import AppStoreIcon from '../../assets/image 288.png'
-import PlayStoreIcon from '../../assets/image 289.png'
-import MobileMockupImage from '../../assets/mobile muckup.png'
+import AppStoreIcon from '../../../public/assets/image 288.png'
+import PlayStoreIcon from '../../../public/assets/image 289.png'
+import MobileMockupImage from '../../../public/assets/mobile muckup.png'
 const MobileSection = () => {
     return (
         <MobileSectionWrapper>

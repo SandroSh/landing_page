@@ -1,7 +1,7 @@
 import { NewsCardType } from '../../types'
 import { LinkWrapper, NewsCardDiv, Line, NewsInfoDiv, TitleInnerWrapper } from './NewsCard.style'
-import GrayArrowIcon from '../../assets/ArrowRight.svg'
-import BlueArrowIcon from '../../assets/ArrowRight-1.svg'
+import GrayArrowIcon from '../../../public/assets/ArrowRight.svg'
+import BlueArrowIcon from '../../../public/assets/ArrowRight-1.svg'
 const NewsCard = ({ cardData }: { cardData: NewsCardType }) => {
     return (
         <NewsCardDiv>
